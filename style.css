@@ -1,0 +1,43 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin:0px;
+    box-shadow: 5x 5px 5px grey;
+    cursor: default;
+}
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+.copy_right_footer 
+{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+.heading:hover
+{
+    background-color: lightyellow;
+    cursor: default;
+    color: black;
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+}
+body
+{
+    background-image: url(saved.jpg);
+}
